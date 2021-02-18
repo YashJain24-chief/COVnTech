@@ -15,4 +15,14 @@ Concepts implemented in this project:
 8. Custom Loaders
 </br>
 Look and feel of UI
-
+</br>
+<img src="images/Screenshot_20210218_211124.png" width="250">
+</br>
+<img src="images/Screenshot_20210218_211151.png" width="250">
+</br>
+<img src="images/Screenshot_20210218_211205.png" width="250">
+</br>
+<img src="images/Screenshot_20210218_211219.png" width="250">
+</br>
+<img src="images/Screenshot_20210218_211229.png" width="250">
+</br>
