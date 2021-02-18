@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".InfoFragment">
+
+        <LinearLayout
+            android:id="@+id/data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/layout_padding">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top1"
+                android:gravity="center"
+                android:text="TOTAL CONFIRMED"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size1" />
+
+            <TextView
+                android:id="@+id/confirmed_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top2"
+                android:gravity="center"
+                android:text="@string/random_value"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/text_size2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top1"
+                android:gravity="center"
+                android:text="TOTAL RECOVERED"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size1" />
+
+            <TextView
+                android:id="@+id/recovered_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding2"
+                android:gravity="center"
+                android:text="@string/random_value"
+                android:textColor="@color/green"
+                android:textSize="@dimen/text_size2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top1"
+                android:gravity="center"
+                android:text="TOTAL DEATH"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size1" />
+
+            <TextView
+                android:id="@+id/death_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding2"
+                android:gravity="center"
+                android:text="@string/random_value"
+                android:textColor="@color/red"
+                android:textSize="@dimen/text_size2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/data"
+            android:orientation="vertical"
+            android:padding="@dimen/padding2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Symptoms of COVID-19"
+                android:textColor="@color/tabText"
+                android:textSize="@dimen/text_size3"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingTop="@dimen/margin_top1"
+                android:text="⁍  Trouble breathing or shortness of breath.\n \n⁍  Ongoing chest pain or pressure.\n\n⁍  Congestion/runny nose.\n\n⁍  Loss of smell or taste."
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size4"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/margin_top1"
+                android:text="Preventions for COVID-19"
+                android:textColor="@color/green"
+                android:textSize="@dimen/text_size3"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingTop="@dimen/margin_top1"
+                android:text="⁍  Practice social distancing.\n \n⁍  Cover your nose and mouth in public.\n\n⁍  Don’t touch your face.\n\n⁍  Clean and disinfect."
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size4"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/forInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/margin_top1"
+                android:text="For more Info Click Here..."
+                android:textColor="@color/blue"
+                android:textSize="@dimen/text_size4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="@dimen/margin_top1"
+                android:text="Visualize COVID-19"
+                android:textColor="@color/tabText"
+                android:textSize="@dimen/text_size4" />
+
+            <Button
+                android:id="@+id/visualize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/dark_blue"
+                android:gravity="center"
+                android:paddingTop="@dimen/margin_top1"
+                android:text="Click Here"
+                android:textSize="@dimen/text_size3" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

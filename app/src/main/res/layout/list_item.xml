@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="70"
+        android:background="#1B6AED"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/country_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:text="Andaman and Nicobar"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="30"
+        android:background="#F8F5F5"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:id="@+id/layout_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Confirmed_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confirmed     "
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Recovered_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Confirmed_text"
+                android:text="Recovered    "
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Death_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Recovered_text"
+                android:text="Death             "
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/layout_1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Confirmed_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="239479"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#1B6AED"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Recovered_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4389329"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#0DDF79"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Death_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4389329"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#F4805B"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

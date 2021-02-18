@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="16dp"
+            android:orientation="vertical"
+            android:layout_weight="5">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coronavirus History"
+                android:layout_gravity="start"
+                android:textSize="35sp"
+                android:paddingLeft="8dp"
+                android:textColor="@color/tabText"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingLeft="16dp"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:gravity="start"
+                android:text="Coronaviruses are a big family of different viruses. Some of them cause the common cold in people. Others infect animals, including bats, camels, and cattle. But how did SARS-CoV-2, the new coronavirus that causes COVID-19, come into being?
+\n\nHere’s what we know about the virus that was first detected in Wuhan, China, in late 2019 and has set off a global pandemic."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Where Did the Coronavirus Come From?"
+                android:layout_gravity="start"
+                android:textSize="35sp"
+                android:paddingTop="16dp"
+                android:paddingLeft="8dp"
+                android:textColor="@color/tabText"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingLeft="16dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:gravity="start"
+                android:text="Experts say SARS-CoV-2 originated in bats. That’s also how the coronaviruses behind Middle East respiratory syndrome (MERS) and severe acute respiratory syndrome (SARS) got started.
+\n\n
+SARS-CoV-2 made the jump to humans at one of Wuhan’s open-air “wet markets.” They’re where customers buy fresh meat and fish, including animals that are killed on the spot.
+\n\n
+Some wet markets sell wild or banned species like cobras, wild boars, and raccoon dogs. Crowded conditions can let viruses from different animals swap genes. Sometimes the virus changes so much it can start to infect and spread among people.
+\n\n
+Still, the Wuhan market didn’t sell bats at the time of the outbreak. That’s why early suspicion also fell on pangolins, also called scaly anteaters, which are sold illegally in some markets in China. Some coronaviruses that infect pangolins are similar to SARS-CoV-2.
+\n\n
+As SARS-CoV-2 spread both inside and outside China, it infected people who have had no direct contact with animals. That meant the virus is transmitted from one human to another. It’s now spreading in the U.S. and around the globe, meaning that people are unwittingly catching and passing on the coronavirus. This growing worldwide transmission is what is now a pandemic.
+
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coronavirus Evolution"
+                android:layout_gravity="start"
+                android:textSize="35sp"
+                android:paddingTop="16dp"
+                android:paddingLeft="8dp"
+                android:textColor="@color/tabText"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingLeft="16dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:gravity="start"
+                android:text="Scientists first identified a human coronavirus in 1965. It caused a common cold. Later that decade, researchers found a group of similar human and animal viruses and named them after their crown-like appearance.
+\n\n
+Seven coronaviruses can infect humans. The one that causes SARS emerged in southern China in 2002 and quickly spread to 28 other countries. More than 8,000 people were infected by July 2003, and 774 died. A small outbreak in 2004 involved only four more cases. This coronavirus causes fever, headache, and respiratory problems such as cough and shortness of breath.
+\n\n
+MERS started in Saudi Arabia in 2012. Almost all of the nearly 2,500 cases have been in people who live in or travel to the Middle East. This coronavirus is less contagious than its SARS cousin but more deadly, killing 858 people. It has the same respiratory symptoms but can also cause kidney failure.\n"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
